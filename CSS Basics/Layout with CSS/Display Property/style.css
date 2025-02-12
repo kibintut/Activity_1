@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 100vh;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+}

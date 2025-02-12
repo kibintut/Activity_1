@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  bottom: 50px;
+}
+
+.absolute {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.fixed {
+  position: fixed;
+  top: 50px;
+}
